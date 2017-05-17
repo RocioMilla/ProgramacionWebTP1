@@ -5,11 +5,14 @@
     <meta charset="UTF-8">
     <title>Colegio Santisima Trinidad</title>
     <link rel="stylesheet" type="text/css" href="./css/estilos.css" />
+    <link rel="stylesheet" type="text/css" href="./css/estilosformulario.css" />
 </head>
 
 <body>
-    <header class="container">
-        <img class="logo" src="./img/logo.jpg">
+    <header>
+        <div class="logo">
+            <img class="logoimg" src="./img/logo.jpg">
+        </div>
         <div class="nombre">
             <h1>Colegio Santisima Trinidad</h1>
         </div>
@@ -18,16 +21,71 @@
             <h2>1234-7838 / 5555-5555</h2>
         </div>
     </header>
-    <div class="navbar">
-        <nav>
-            <a href="home.html">INICIO</a>
-            <a href="institucion.html">INSTITUCION</a>
-            <a href="educacion.html">EDUCACION</a>
-            <a class="active" href="contacto.html">CONTACTO</a>
-        </nav>
-    </div>
+    <nav class="navbar">
+        <a href="home.html" id="home">INICIO</a>
+        <a href="institucion.html" id="institucion">INSTITUCION</a>
+        <a href="educacion.html" id="educacion">EDUCACION</a>
+        <a class="active" href="contacto.html" id="contacto">CONTACTO</a>
+    </nav>
     <main>
-        <h1>Aca Deberia ir el formulario de contacto</h1>
+        
+        <!-- HTML CODIGO DEL FORMULARIO -->
+        
+        <section>
+                <article>
+                    <h3 class="a1"> Si desea contactarnos por favor complete los campos obligatorios (*) y deje su pregunta en la caja de comentarios </h3>
+                </article>
+                <article class="formulario">
+                    
+                <h2 class="a4"> Formulario de consulta </h2>
+                <br>
+            
+                    <form action="form/envio.php" method="post">
+                
+                <label for="nombre"> *Nombre y Apellído: </label>
+                <input type="text" name="nombre" placeholder="Ingrese el nombre y Apellido" required>
+                <br>
+                        
+                <label for="email"> *e-Mail: </label>
+                <input type="email" name="email" placeholder="ejemplo@ejemplo.com.ar" required>
+                <br>
+                
+                
+                <label for="asunto"> Asunto </label>
+                    <datalist id="asunto">
+                        <option value="Inscripcion"> </option>
+                        <option value="Pago"> </option>
+                        <option value="Consulta"> </option>
+                        <option value="Fechas"> </option>
+                        <option value="Directivos"> </option>
+                        <option value="Tramites"> </option>
+                    </datalist>
+                    <input type="text" list="asunto">
+                
+                        
+                 <br>        
+                <label for="Consultas"> *Consultas: </label>
+                <textarea name="consulta" placeholder="Ingrese su consulta" required> </textarea>
+                <br>
+                
+                <input type="submit" value="Enviar" class="boton">
+                <input type="reset" value="Limpiar" class="boton">
+           
+                    </form>
+            
+                </article>
+            
+            <article class="mapa">
+                <h2> Mapa </h2>
+                <img src="img/mapa_colegio.jpg" width="600" height="400">
+            
+            </article>
+            
+				
+            </section>
+        
+        <!-- HTML FIN CODIGO DEL FORMULARIO -->
+        
     </main>
     <footer>Derechos reservados Colegio Santisima Trinidad. Desarrollado por el grupo H UNLaM</footer>
 </body>

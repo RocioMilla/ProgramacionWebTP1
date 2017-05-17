@@ -1,0 +1,80 @@
+/* CSS DEL FROMULARIO */
+
+.a1 {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+    background: #f8f8f8;
+    color: #777;
+}
+
+.a2 {
+    width: 50%;
+    float: left;
+    margin-right: 5%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background: #f8f8f8;
+    color: #777;
+    box-sizing: border-box; */
+}
+
+.a4 {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.formulario{
+    width: 50%; /*el ancho que ocupa en pantalla la caja entera del formulario */
+    float: left;
+    margin-right: 5%;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    background: #f8f8f8;
+    color: #777;
+}
+
+label,input,textarea {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+input,textarea {
+    padding: 10px;
+    box-sizing: border-box; /*para que el padding no aumente el tamnaño de la caja*/
+    background: #fff;
+    border-radius: 5px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
+    
+}
+
+.boton {
+    width: auto;
+    background-color: black;
+    color: white;
+    border: none;
+    float: right;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.boton:hover {
+    background-color: #297b8b;
+    transition: 1s;
+}
+
+.mapa {
+    background: #f8f8f8;
+    color: #777;
+    
+}
+
+
+/* FIN CSS FORMULARIO */

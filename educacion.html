@@ -5,11 +5,15 @@
     <meta charset="UTF-8">
     <title>Colegio Santisima Trinidad</title>
     <link rel="stylesheet" type="text/css" href="./css/estilos.css" />
+    <link rel="stylesheet" type="text/css" href="./css/estilosEducacion.css">
 </head>
 
 <body>
-    <header class="container">
-        <img class="logo" src="./img/logo.jpg">
+<div id="contenido">
+    <header>
+        <div class="logo">
+            <img class="logoimg" src="./img/logo.jpg">
+        </div>
         <div class="nombre">
             <h1>Colegio Santisima Trinidad</h1>
         </div>
@@ -18,18 +22,45 @@
             <h2>1234-7838 / 5555-5555</h2>
         </div>
     </header>
-    <div class="navbar">
-        <nav>
-            <a href="home.html">INICIO</a>
-            <a href="institucion.html">INSTITUCION</a>
-            <a class="active" href="educacion.html">EDUCACION</a>
-            <a href="contacto.html">CONTACTO</a>
-        </nav>
-    </div>
+    <nav class="navbar">
+        <a href="home.html" id="home">INICIO</a>
+        <a href="institucion.html" id="institucion">INSTITUCION</a>
+        <a class="active" href="educacion.html" id="educacion">EDUCACION</a>
+        <a href="contacto.html" id="contacto">CONTACTO</a>
+    </nav>
     <main>
-        <h1>Aca Deberia ir el contenido de primaria, secundaria, etc. Me imagino poder usar un nav lateral, para navegar por distintas seccions</h1>
+        <section>
+            <article id="inicial">
+            <h2>Nivel Inicial</h2>
+            <div class="clearfix"></div>
+            <p>El nivel Inicial comprende a los niños de 2 años (a cumplir antes del 30 de junio) a 5 años.</p>
+            <p>La infraestructura fue diseñada para favorecer el desarrollo de los niños pensando en espacios de contacto con la naturaleza así como dispositivos áulicos que favorecen los distintos aspectos psico motriz y social del niño.</p>
+            <p>El jardín busca ser un espacio de exploración, observación, descubrimiento, experimentación. Pero también un lugar de construcción, reflexión e indagación.</p>
+            <p>Apuntamos a poder producir los andamiajes necesarios para la adquisición de nuevos conocimientos y experiencias en un marco de contención afectiva y educación personalizada.</p>
+            <p>La participación de las familias es estimulada y promovida, siendo estas parte del proyecto en pos de un clima que pueda favorecer y afianzar los procesos de descubrimiento/aprendizaje.</p>
+            <p>Son parte de este proyecto los estímulos semanales en las áreas de Música, Arte, Educación Física e Ingles, con actividades que estimulan el uso del cuerpo y sus sentidos en diversas modalidades y experiencias. Así como el Proyecto de Articulación con la Primaria que contempla diversas actividades especiales así como el acompañamiento del Equipo de Conducción para lograr la unidad, la comunicación y la continuidad de la historia escolar en los distintos niveles.</p></article>
+            <article id="primario">
+            <h2>Nivel Primario</h2>
+            <div class="clearfix"></div>
+            <p>Nuestra propuesta educativa brinda un espacio de real participación donde los niños y niñas se constituyen en protagonistas del proceso enseñanza - aprendizaje, desde un proyecto de educación personalizada sustentado por una sólida intervención docente, con sentido inclusivo y arraigo en su entorno familiar- social. Su propuesta encuentra sentido y eje en el protagonismo del niño y desarrollo de sus potencialidades, su capacidad creadora, espíritu científico, critico, de exploración permanente, enmarcado en un escenario de valores que se propicia día a día desde el ideario institucional –todo lo atinente a la perspectiva del derecho del niño, el desarrollo de la honestidad, la justicia, la libertad, el compromiso y el respeto por las diferencias, entre otros.</p>
+            <p>Educamos favoreciendo el desarrollo de valores y la formación de lectores y pensadores autónomos, en la expectativa de una inclusión plena, de una escuela “integradora” que apunte por la diferencia como valor educativo en si mismo, que nos marque el referente que debemos caminar que no es otro que el de la escuela inclusiva, comprensiva y atenta a la diversidad de todo el alumnado.</p>
+            <p>La escuela es un ámbito de convivencia y diversidad y por ello debe permitir a cada uno de los que en ella participan ser persona y ello constituye uno de los logros en el que nos sumergimos en el Proyecto Educativo del colegio.</p></article>
+            <article id="secundario">
+            <h2>Nivel Secundario</h2>
+            <div class="clearfix"></div>
+            <p>La Escuela Secundaria tiene como objetivo educar a los alumnos a través de la ampliación del campo del conocimiento para que puedan desempeñarse con autonomía y responsabilidad de acuerdo a principios éticos y democráticos.</p>
+            <p>Nuestras modalidades son "Orientación en Ciencias Sociales" y "Orientación en Economía y Administración", y a partir de los Espacios Curriculares Institucionales (ECI) nuestros estudiantes se especializan en sus específicas orientaciones. Los ECI son materias cuyo diseño curricular es definido por cada institución y se desarrollan en los dos últimos años de la Escuela Secundaria.</p>
+            <p>Además contamos con las siguientes materias extraprogramáticas obligatorias: Informática, Taller de Inglés, Técnicas de Estudio y Epistemología, Orientación Vocacional y Tutoría.</p></article>
+        </section>
+        <aside>
+            <a href=#inicial>Nivel Inicial</a>
+            <a href=#primario>Nivel Primario</a>
+            <a href=#secundario>Nivel Secundario</a>
+        </aside>
+    <div class="clearfix"></div>
     </main>
     <footer>Derechos reservados Colegio Santisima Trinidad. Desarrollado por el grupo H UNLaM</footer>
+</div>
 </body>
 
 
