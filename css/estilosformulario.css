@@ -18,7 +18,8 @@
     padding: 20px;
     background: #f8f8f8;
     color: #777;
-    box-sizing: border-box; */
+    box-sizing: border-box;
+    */
 }
 
 .a4 {
@@ -26,8 +27,9 @@
     margin-top: 5px;
 }
 
-.formulario{
-    width: 50%; /*el ancho que ocupa en pantalla la caja entera del formulario */
+.formulario {
+    width: 50%;
+    /*el ancho que ocupa en pantalla la caja entera del formulario */
     float: left;
     margin-right: 5%;
     padding-left: 20px;
@@ -37,21 +39,21 @@
     color: #777;
 }
 
-label,input,textarea {
+label, input, textarea {
     width: 100%;
     margin-bottom: 10px;
 }
 
-input,textarea {
+input, textarea {
     padding: 10px;
-    box-sizing: border-box; /*para que el padding no aumente el tamnaño de la caja*/
+    box-sizing: border-box;
+    /*para que el padding no aumente el tamnaño de la caja*/
     background: #fff;
     border-radius: 5px;
     border-width: 2px;
     border-style: inset;
     border-color: initial;
     border-image: initial;
-    
 }
 
 .boton {
@@ -73,7 +75,6 @@ input,textarea {
 .mapa {
     background: #f8f8f8;
     color: #777;
-    
 }
 
 

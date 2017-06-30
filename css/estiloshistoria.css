@@ -1,20 +1,21 @@
-main{
+main {
     background-image: url("../img/colegio2.jpg");
-    background-size:cover;
+    background-size: cover;
     padding: 40px 0;
 }
 
-section{
-    background:rgba(255,255,255, 0.9);
-	margin: 0 60px 10px 60px;
-    border-radius:10px;
+section {
+    background: rgba(255, 255, 255, 0.9);
+    margin: 0 60px 10px 60px;
+    border-radius: 10px;
 }
 
-p{
-    text-align:justify;
+p {
+    text-align: justify;
     margin: 0;
     padding: 10px;
 }
-h1{
+
+h1 {
     text-align: center;
 }

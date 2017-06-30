@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    display: table;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    min-height: 120px;
+    vertical-align: middle;
+    padding: 15px 0;
+}
+
+footer {
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    padding: 15px;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #e7e7e7;
+    border-top: 1px solid #e7e7e7;
+    text-align: center;
+    height: 50px;
+    z-index: 10;
+}
+
+nav {
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #e7e7e7;
+    border-top: 1px solid #e7e7e7;
+    display: none;
+}
+
+nav li {
+    list-style: none;
+    float: left;
+    width: 100%;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #777;
+    padding: 1em;
+    transition: 0.5s;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+nav li a:hover, nav li a.activo {
+    color: #333;
+}
+
+a.desplegable {
+    color: #281C1C;
+    display: block;
+    cursor: pointer;
+    z-index: 10;
+}
+
+a.desplegable i {
+    padding: 9px 10px;
+    border: 1px solid #e7e7e7;
+    border-radius: 5px;
+    float: right;
+    margin: 5px 15px;
+}
+
+.activo, nav li a:hover {
+    background-color: #e7e7e7;
+}
+
+.soloMobile {
+    display: block;
+}
+
+.soloEscritorio {
+    display: none;
+}
+
+.clear {
+    clear: both;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.fixed {
+    position: fixed !important;
+}
+
+header img {
+    max-width: 90%;
+}
+
+.navMobile {
+    background-color: #f8f8f8;
+    border-color: #e7e7e7;
+    min-height: 50px;
+    border: 1px solid #e7e7e7;
+}
+
+@media screen and (min-width:47em) {
+    .contenedor {
+        width: 90%;
+    }
+    nav.menu {
+        display: block;
+        z-index: 10;
+        width: 100%;
+    }
+    nav li {
+        width: 25%;
+    }
+    nav ul {
+        margin: auto;
+    }
+    a.desplegable {
+        display: none;
+    }
+    .soloMobile {
+        display: none;
+    }
+    .soloEscritorio {
+        display: block;
+    }
+    #logo {
+        width: 66.66666667%;
+        float: left;
+    }
+    #logoDatos {
+        width: 33.33333333%;
+        float: left;
+        margin-top: 13px;
+    }
+}
