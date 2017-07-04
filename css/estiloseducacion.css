@@ -1,5 +1,7 @@
+@import url('./header-navbar-footer.css');
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
 @import url('https://fonts.googleapis.com/css?family=Raleway:500');
+
 aside, section {
 	float: left;
 	padding: 5px 15px;
